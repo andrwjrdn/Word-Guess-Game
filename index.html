@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Word Guess Game</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|Bowlby+One+SC|Orbitron:900|Rubik+Mono+One" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+
+<body>
+    <header class="main-header">
+            <h1>NBA ALL STARS</h1>
+            <h2>HANG MAN EDITION</h2>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="middle">
+                <p id="Play">PRESS ANY KEY TO</p>    
+                <h3>GUESS THE PLAYER!</h3>
+                <p id="PlayerArray"> </p>
+                <div class="gif">
+                    <iframe id="Pictures" src="" frameBorder="0" ></iframe>
+                </div>
+            </div>
+            <div class="left side">
+                <div class="wins">
+                    <h4>WINS</h4>
+                    <p id="Wins"></p>
+                </div>
+                <div class="losses">
+                    <h4>LOSSES</h4>
+                    <p id="Losses"></p>  
+                </div>
+            </div>
+            <div class="right side">
+                <h4><span id="GuessesLeft"></span> GUESSES LEFT </h4>
+                <h4> LETTERS GUESSED</h4>
+                <p id="LettersGuessed"></p>
+            </div>
+        </div>
+    </main>
+
+
+
+    
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

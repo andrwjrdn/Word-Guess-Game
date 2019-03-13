@@ -1,0 +1,113 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/6c/50/40/6c504025f7d36fc22586ebfe6799e55c.jpg");
+}
+h1 {
+    font-family: 'Alegreya Sans SC', serif;
+    font-size: 96px;
+    text-align: center;
+    color: red;
+    
+    
+}
+
+h2 {
+    font-family: 'Rubik Mono One';
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: -50px;
+   
+}
+
+h3{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: red;
+}
+
+h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    text-align: center;
+   
+} 
+
+#LettersGuessed {
+    color: white;
+
+    
+}
+
+#Wins {
+    color: gold;
+}
+
+#Losses {
+    color: red;
+}
+#Play {
+    color:white;
+    margin-top: 0;
+    margin-bottom: -40px;
+}
+
+#PlayerArray {
+    letter-spacing: 4px;
+    margin-top: 0;
+    color:gold;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    background-color:black;
+    
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.middle {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+
+#Pictures {
+    width: 200px;
+    height: 175px;
+    margin-left: 30%;
+    
+}
+
+.side {
+    width: 20%;
+    padding: 20px;
+}
+.left {
+    order: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.right{
+    order: 3;
+    overflow-wrap: break-word;
+    text-align: center;
+}
