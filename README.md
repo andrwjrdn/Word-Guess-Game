@@ -20,10 +20,5 @@ None
 
 ## Authors
 
-* **Maybellin Burgos** 
+Andrew Reyes
 
-## Acknowledgments
-
-* My boot class peers.
-* Especially Frank.
-* RIP David, til August!!!
