@@ -1,8 +1,29 @@
 # Word-Guess-Game
 
-NBA ALL STARS HANG MAN GAME
+NBA Players as a word guessing game. There are 12 NBA Players in total. The words are their full names. No spaces, because I couldn't figure that out...
 
-<br>GUESS THE CORRECT PLAYER AND YOU WIN!</br>
-<br>YOU HAVE 8 GUESSES PER PLAYER. IF YOU RUN OUT, YOU LOSE.</br>
-<br>EACH WIN AND LOSS IS CALCULATED ON THE LEFT HAND SIDE.</br>
-<br>IF YOU LOSE THEN ENJOY THE MEME.</br>
+## Getting Started
+
+Fork the repo or download the zip file and click index.html!
+
+### Prerequisites
+
+```
+None
+```
+
+## Built With
+
+* Bootstrap 4.x
+* HTML
+* Javascript
+
+## Authors
+
+* **Maybellin Burgos** 
+
+## Acknowledgments
+
+* My boot class peers.
+* Especially Frank.
+* RIP David, til August!!!
